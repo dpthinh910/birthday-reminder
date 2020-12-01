@@ -47,7 +47,7 @@ article {
   align-items: center;
 }
 article img {
-  width: auto;
+  width: 20rem;
   height: 20rem;
   border-radius: 0.5rem;
   object-fit: cover;
@@ -99,9 +99,9 @@ button span:after {
 }
 button:hover span {
   padding-right: 3rem;
-  color: red;
 }
 button:hover span:after {
   opacity: 1;
   right: 0;
+  color: red;
 }
