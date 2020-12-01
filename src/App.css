@@ -1,0 +1,32 @@
+/* Import font styles from Google (Sans Serif type) 
+1. Roboto Condensed
+2. Varela Round
+3. Lobtser
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Roboto+Condensed&family=Varela+Round&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 67.5%;
+  font-family: "Lobster", sans-serif, "Courier New";
+  color: white;
+  background-color: lightskyblue;
+}
+h1 {
+  font-size: 5rem;
+  text-align: center;
+  padding: 2rem;
+  letter-spacing: 0.3rem;
+  text-shadow: 0 2px 5px 2px (0, 0, 0, 0.3);
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Roboto Condensed", "Courier New", sans-serif;
+  text-decoration: overline wavy;
+  padding: 1rem;
+  margin: auto;
+}
