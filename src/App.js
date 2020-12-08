@@ -17,7 +17,7 @@ function App() {
       <div className="container-fluid">
         <h1>{data.length} birthdays today...</h1>    
         <List people={data} />
-        <button onSubmit={clearAllRecs}> <span>Clear All</span></button>
+        <button type='button' onClick={clearAllRecs}> <span>Clear All</span></button>
       </div>
     </main>
   );
